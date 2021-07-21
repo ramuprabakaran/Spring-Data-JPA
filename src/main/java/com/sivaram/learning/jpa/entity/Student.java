@@ -32,8 +32,8 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private String emailId;
-	private String guardianName;
-	private String guardianEmail;
-	private String guardianMobile;
+	
+	
+	private Guardian guardian ;
 	
 }

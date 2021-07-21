@@ -19,5 +19,7 @@ The following guides illustrate how to use some features concretely:
 ### Create Mysql DB schema and user
 
 create database spring_data_jpa;
+
 create user 'spring_user'@'%' identified with mysql_native_password by 'Passm0rd';
+
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES, INDEX, ALTER, EXECUTE, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EVENT, TRIGGER ON spring_data_jpa.* to 'spring_user'@'%';
